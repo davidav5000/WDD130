@@ -31,9 +31,9 @@ else:
     #vvvAsking if the user wants to round up their purchase for charity
 yesorno = input("\n------------------------------------------------\nWould you like to round up your purchase for Animal Charity? (Yes or No) ").lower()
 if yesorno == "no":
-    print ("\nThank you.")
+    print ("\nThank you.\n")
 elif yesorno == "yes":
     charity = math.ceil(final_total)
-    print(f"\nYour total purchase has been rounded up from ${final_total:.2f} to ${charity:.2f} for Animal Charity. Thank you for your donation. :)")
+    print(f"\nYour total purchase has been rounded up from ${final_total:.2f} to ${charity:.2f} for Animal Charity. \nThank you for your donation. :)\n")
 else:
-    print ("\nNot valid input. Please try again.")
+    print ("\nNot valid input. Please try again.\n")
