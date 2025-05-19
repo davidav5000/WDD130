@@ -21,7 +21,7 @@ final_total = sales_tax + subtotal_price
 print(f"\nSubtotal: ${subtotal_price:.2f}")
 print(f"Sales tax: ${sales_tax:.2f}")
 print(f"Final total: ${final_total:.2f}")
-payment =input("\nWhat is the paymont amount? ")
+payment =input("\nWhat is the payment amount? ")
 payment_input = float(payment)
 change = payment_input - final_total
 if payment_input < final_total:
