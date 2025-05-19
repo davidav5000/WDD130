@@ -3,3 +3,16 @@
     margin: 0 auto;
     text-align: center;
 }
+#nav a {
+    text-align: center;
+}
+#hero-msg {
+    text-align: center;
+}
+#.button-box {
+    text-align: center;
+}
+#main section {
+    margin: 0 auto;
+    max-width: 800px;
+}
