@@ -1,0 +1,45 @@
+
+#w05_circles {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+#w05_circles img {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+#w05_ice_image_desk img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    object-fit: cover;
+    display: block;
+}
+#w05_ice_image_graphic img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    object-fit: cover;
+    display: block;
+}
+#w05_ice_image_person img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    object-fit: cover;
+    display: block;
+}
+body {
+    background-color: #737373;
+    margin: 0;
+    padding: 0;
+}
+.others {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
