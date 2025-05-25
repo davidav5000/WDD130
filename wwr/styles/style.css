@@ -70,8 +70,8 @@ nav a:hover {
     background-color: #e7e6e6;
     color: #154467;
     text-decoration: none;
-    padding: 30px;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 40px;
     border-radius: 5px;
 }
 footer {
@@ -133,19 +133,17 @@ footer .social img {
     padding: 15px;
 }
 .rivers-card {
-    margin: 200px 0;
-    padding-left: 430px;
-    text-align: center;
+text-align: center;
+margin-top: 200px;
 }
 .camping-card {
-    margin: 200px 0;
-    padding-left: 430px;
-    text-align: center;
+text-align: center;
+margin-top: 200px;
 }
 .rapids-card {
-    margin: 200px 0;
-    padding-left: 430px;
-    text-align: center;
+text-align: center;
+margin-top: 200px;
+margin-bottom: 200px;
 }
 .card-img {
     border: 10px solid #000000;
