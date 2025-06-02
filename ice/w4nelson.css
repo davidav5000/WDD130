@@ -2,19 +2,59 @@
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    background-color: #56a0d4;
+    color: #FFFFFF; 
+    max-width: 550px;
+    font-size: 1em;
+}
+h1:hover {
+    color: #000000;
 }
 #Quote {
-    max-width: 1000px;
+    max-width: 300px;
     margin: 0 auto;
     text-align: center;
+    background-color: #56a0d4;
+    color: #FFFFFF;
+    font-size: 2em;
 }
 #doctrine {
     max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
+    margin-left: 400px;
+    text-align: left;
+    background-color: #56a0d4;
+    color: #000000;
+    font-family: Verdana;
+
 }
 #picture {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+}
+img {
+    height: 200px;
+    width: 170px;
+}
+h1 {
+    background-color: #56a0d4;
+    font-family: Verdana;
+}
+h2 {
+    font-family: Verdana;
+    font-size: 1em;
+}
+header {
+    background-color: #56a0d4;
+}
+body {
+    background-color: #56a0d4;
+}
+#last {
+    color: #000000;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 340px;
+    font-family: Verdana;
+    font-size: 1em;
 }
