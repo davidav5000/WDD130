@@ -1,0 +1,38 @@
+body {
+    background-color: #b9b8b9;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+.whitespace {
+    position: absolute;
+    margin: 0;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    margin-bottom: 0px;
+}
+.cherry {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    margin-left: 50px;
+}
+#text {
+    position: absolute;
+    font-size: 8em;
+    z-index: 2;
+    margin-left: 275px;
+    font-weight: bold;
+}
+#texttwo {
+    position: absolute;
+    color: #9a1118;
+    font-size: 5em;
+    font-weight: bold;
+    margin-left: 690px;
+    margin-top: 300px;
+}
+footer {
+    margin-bottom: 0 auto;
+}
