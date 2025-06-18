@@ -1,5 +1,6 @@
 body {
     background-color: #1e1e1e;
+    ;
 }
 img {
     text-align: center;
@@ -13,8 +14,8 @@ img {
 }
 #text {
     text-align: center;
-    margin-left: 338px;
-    margin-right: 338px;
+    margin-left: 505px;
+    margin-right: 505px;
     display: block;
     background-color: #ffffff;
     margin-top: 0%;
@@ -38,8 +39,8 @@ h2 {
     text-align: center;
     margin-top: 0%;
     background-color: #1e1e1e;
-    margin-left: 338px;
-    margin-right: 338px;
+    margin-left: 505px;
+    margin-right: 505px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     display: grid;  
@@ -49,7 +50,6 @@ blockquote {
     margin-bottom: 0%;
     color: #958b95;
     font-style: sans-serif;
-    width: 200px;
 }
 #first {
     grid-column: 1/1;
