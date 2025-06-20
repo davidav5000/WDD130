@@ -207,6 +207,77 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#river-img {
+    width: 100%;
+    margin-top: -500px;
+}
+#river-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#river-msg {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#river {
+    margin-top: -100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.salmon-img {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-column: 1/2;
+}
+#salmon-text {
+    color : #ffffff;
+    background-color: #154467;
+    padding: 20px;
+    font-family: "rockwell";
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000;
+
+}
+.home-grid-rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    gap: 20px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 0%;
+}
+#salmon-img {
+    width: 100%;
+    height: auto;
+    margin-top: 2px;
+    box-shadow: 5px 5px 10px #000000;
+
+}
+#salmon-title {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    font-size: x-large;
+    background-color: #e1b72b;
+    margin-right: 672px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000;
+
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
