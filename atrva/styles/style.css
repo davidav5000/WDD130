@@ -1,5 +1,51 @@
+
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 1fr;
+    background-color: #234051;
+    margin-top: -10px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    padding: 50px;
+    color: #F1F8FA;
+    font-size: x-large;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #436077;
+}
 .logo {
-    width: 250px
+    display: block;
+    padding-top: 14px;
+    padding-left: 5px;
+    width: 250px;
+    border-radius: 70px;
+}
+#logo_link {
+    z-index: 1;
+}
+.head2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #396E94;
+}
+h5 {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #396E94;
+    color: #F1F8FA;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .card-img {
     width: 300px;
@@ -17,4 +63,5 @@
 }
 body {
     background-color: #F1F8FA;
+    margin: 0;
 }
